@@ -112,6 +112,17 @@ View train timings and calculate total ticket prices based on the number of tick
 Confirm bookings with a summary of the total price.
 File: train.py
 
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Author :- Vishrut Chawda
+
+GitHub :- https://github.com/vishrutchawda/Python-Mini-Projects-Collection
+
+LinkeIn :- www.linkedin.com/in/vishrut-chawda-899898342
+
+
 Install the required Python libraries using:
 ```bash
 pip install -r requirements.txt
@@ -143,13 +154,3 @@ Create the accounts table using the following SQL:
         'password': 'your_password',
         'database': 'banking_system'
     }
-
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Author :- Vishrut Chawda
-
-GitHub :- https://github.com/vishrutchawda/Python-Mini-Projects-Collection
-
-LinkeIn :- www.linkedin.com/in/vishrut-chawda-899898342
