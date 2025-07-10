@@ -15,7 +15,6 @@ This repository contains a collection of Python-based mini projects, showcasing 
   - [Number Game](#number-game)
   - [Rock Paper Scissors](#rock-paper-scissors)
   - [Train Ticket Booking](#train-ticket-booking)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Project Overview
@@ -49,30 +48,30 @@ Installation:-
 
 git clone https://github.com/your-username/python-mini-projects.git
 cd python-mini-projects
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 Set up the MySQL database for the Banking System:
 Create a database named banking_system.
 Create the accounts table using the following SQL:
 
-CREATE TABLE accounts (
-    account_number BIGINT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    balance DECIM
-AL(10, 2) NOT NULL
-);
-
-
-- Update the `db_config` in `banking_system.py` with your MySQL credentials:
-```python
-db_config = {
-    'host': 'localhost',
-    'user': 'your_username',
-    'password': 'your_password',
-    'database': 'banking_system'
-}
-
+    CREATE TABLE accounts (
+        account_number BIGINT PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        balance DECIM
+    AL(10, 2) NOT NULL
+    );
+    
+    
+    - Update the `db_config` in `banking_system.py` with your MySQL credentials:
+    ```python
+    db_config = {
+        'host': 'localhost',
+        'user': 'your_username',
+        'password': 'your_password',
+        'database': 'banking_system'
+    }
+    
 
 
 Usage :-
