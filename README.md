@@ -41,7 +41,7 @@ To run this project, you need the following installed:
 - A MySQL database named `banking_system` with a table `accounts` (see [Banking System](#banking-system) for setup instructions)   
 
 
-Usage :-
+## Usage :-
 Run the main program:
 
 python main.py
@@ -58,9 +58,9 @@ Rock Paper Scissors
 Click a button to launch the corresponding module. Each module runs independently and returns to the main menu upon completion (where applicable).
 
 
-Modules :-
+## Modules :-
 
-Snake Game
+## Snake Game :-
 A classic snake game implemented using pygame. The snake moves to collect food, increasing its length and score. Features include:
 
 Pause functionality (click the pause icon in the top-right corner).
@@ -68,7 +68,7 @@ Game over screen with a "Start Again" option.
 Increasing speed as the score grows.
 File: snake_game.py
 
-Banking System
+## Banking System:-
 A simple banking application with MySQL integration for managing accounts. Features include:
 
 Create a new account with a unique account number and initial balance.
@@ -79,7 +79,7 @@ File: banking_system.py
 
 Note: Requires a MySQL server and database setup as described in Installation.
 
-Dot Matrix Printer
+## Dot Matrix Printer :-
 A fun application that renders a single letter in a dot-matrix style using pyfiglet. Features include:
 
 Input a single letter to display its ASCII art representation.
@@ -87,7 +87,7 @@ Slow animation effect for rendering each line.
 Option to quit by entering 'q' or 'quit'.
 File: dot_matrix_printer.py
 
-Number Game
+## Number Game :-
 A competitive game where the player and computer take turns adding numbers (1-10) to a total score, aiming to reach 100 without exceeding it. Features include:
 
 Input validation for numbers between 1 and 10.
@@ -95,7 +95,7 @@ Computer strategy to counter the player's moves.
 Reset functionality to start a new game.
 File: game.py
 
-Rock Paper Scissors
+## Rock Paper Scissors :-
 A classic game implemented with a tkinter GUI, featuring:
 
 Animated "Rock, Paper, Scissors, Shoot!" sequence.
@@ -103,7 +103,7 @@ Visual display of user and computer choices using ASCII art.
 Win/loss/draw results with color-coded feedback.
 File: rock_paper_scissors.py
 
-Train Ticket Booking
+## Train Ticket Booking :-
 A train ticket reservation system with a tkinter GUI, allowing users to:
 
 Select departure and arrival stations.
@@ -113,21 +113,22 @@ Confirm bookings with a summary of the total price.
 File: train.py
 
 
-License
+## License :-
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Author :- Vishrut Chawda
+## Author :- Vishrut Chawda
 
-GitHub :- https://github.com/vishrutchawda/Python-Mini-Projects-Collection
+## GitHub :- https://github.com/vishrutchawda/Python-Mini-Projects-Collection
 
-LinkeIn :- www.linkedin.com/in/vishrut-chawda-899898342
+## LinkeIn :- www.linkedin.com/in/vishrut-chawda-899898342
 
 
-Install the required Python libraries using:
+## Install the required Python libraries using:
 ```bash
 pip install -r requirements.txt
+```
 
-Installation:-
+## Installation:-
 
 git clone https://github.com/your-username/python-mini-projects.git
 cd python-mini-projects
