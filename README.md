@@ -15,7 +15,6 @@ This repository contains a collection of Python-based mini projects, showcasing 
   - [Number Game](#number-game)
   - [Rock Paper Scissors](#rock-paper-scissors)
   - [Train Ticket Booking](#train-ticket-booking)
-- [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
