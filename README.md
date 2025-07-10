@@ -38,40 +38,7 @@ To run this project, you need the following installed:
   - `pyfiglet`
   - `mysql-connector-python`
 - MySQL Server (for the Banking System module)
-- A MySQL database named `banking_system` with a table `accounts` (see [Banking System](#banking-system) for setup instructions)
-
-Install the required Python libraries using:
-```bash
-pip install -r requirements.txt
-
-Installation:-
-
-git clone https://github.com/your-username/python-mini-projects.git
-cd python-mini-projects
-  pip install -r requirements.txt
-
-
-Set up the MySQL database for the Banking System:
-Create a database named banking_system.
-Create the accounts table using the following SQL:
-
-    CREATE TABLE accounts (
-        account_number BIGINT PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
-        balance DECIM
-    AL(10, 2) NOT NULL
-    );
-    
-    
-    - Update the `db_config` in `banking_system.py` with your MySQL credentials:
-    ```python
-    db_config = {
-        'host': 'localhost',
-        'user': 'your_username',
-        'password': 'your_password',
-        'database': 'banking_system'
-    }
-    
+- A MySQL database named `banking_system` with a table `accounts` (see [Banking System](#banking-system) for setup instructions)   
 
 
 Usage :-
@@ -144,6 +111,40 @@ Choose a train and coach type (e.g., First Class, Sleeper, AC).
 View train timings and calculate total ticket prices based on the number of tickets.
 Confirm bookings with a summary of the total price.
 File: train.py
+
+Install the required Python libraries using:
+```bash
+pip install -r requirements.txt
+
+Installation:-
+
+git clone https://github.com/your-username/python-mini-projects.git
+cd python-mini-projects
+  pip install -r requirements.txt
+
+
+Set up the MySQL database for the Banking System:
+Create a database named banking_system.
+Create the accounts table using the following SQL:
+
+    CREATE TABLE accounts (
+        account_number BIGINT PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        balance DECIM
+    AL(10, 2) NOT NULL
+    );
+    
+    
+    - Update the `db_config` in `banking_system.py` with your MySQL credentials:
+    ```python
+    db_config = {
+        'host': 'localhost',
+        'user': 'your_username',
+        'password': 'your_password',
+        'database': 'banking_system'
+    }
+
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
