@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ## Installation:-
 
-git clone https://github.com/your-username/python-mini-projects.git
+git clone https://github.com/vishrutchawda/python-mini-projects.git
 cd python-mini-projects
   pip install -r requirements.txt
 
